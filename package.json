@@ -1,0 +1,21 @@
+{
+  "name": "playing-with-ava",
+  "version": "1.0.0",
+  "description": "Play and learn with ava",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^2.2.0",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  },
+  "ava": {
+    "compileEnhancements": false,
+    "extensions": ["ts"],
+    "require": ["ts-node/register"]
+  }
+}
